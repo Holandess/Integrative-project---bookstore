@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package View;
+package view;
 
-import Controller.ClienteController;
-import Model.Cliente;
+//import Controller.ClienteController;
+//import Model.Cliente;
 import java.awt.Color;
 import javax.swing.BorderFactory;
 import javax.swing.JOptionPane;
@@ -416,29 +416,29 @@ public class cadastroCliente extends javax.swing.JFrame {
 
     private void btnSalvarClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalvarClienteActionPerformed
         // TODO add your handling code here:
-        if (validarFormulario()) {
-            Cliente c = new Cliente(txtNome.getText(),
-                    txtEmail.getText(),
-                    Long.parseLong(this.txtCPF.getText()),
-                    cboSexo.getSelectedItem().toString(),
-                    txtEndereco.getText(),
-                    Integer.parseInt(this.txtNumero.getText()),
-                    txtComp.getText(),
-                    txtBairro.getText(),
-                    Long.parseLong(this.txtCEP.getText()),
-                    txtCidade.getText(),
-                    cboUF.getSelectedItem().toString(),
-                    Long.parseLong(this.txtTelefone.getText()),
-                    Long.parseLong(this.txtCelular.getText())
-            );
-            
-            
-            ClienteController.Salvar(c);
-            JOptionPane.showMessageDialog(this, "Cliente Criado com Sucesso!!");
-            this.dispose();
-        } else {
-            JOptionPane.showMessageDialog(this, "Preencher os campos destacados corretamente");
-        }
+//        if (validarFormulario()) {
+//            Cliente c = new Cliente(txtNome.getText(),
+//                    txtEmail.getText(),
+//                    Long.parseLong(this.txtCPF.getText()),
+//                    cboSexo.getSelectedItem().toString(),
+//                    txtEndereco.getText(),
+//                    Integer.parseInt(this.txtNumero.getText()),
+//                    txtComp.getText(),
+//                    txtBairro.getText(),
+//                    Long.parseLong(this.txtCEP.getText()),
+//                    txtCidade.getText(),
+//                    cboUF.getSelectedItem().toString(),
+//                    Long.parseLong(this.txtTelefone.getText()),
+//                    Long.parseLong(this.txtCelular.getText())
+//            );
+//            
+//            
+//            ClienteController.Salvar(c);
+//            JOptionPane.showMessageDialog(this, "Cliente Criado com Sucesso!!");
+//            this.dispose();
+//        } else {
+//            JOptionPane.showMessageDialog(this, "Preencher os campos destacados corretamente");
+//        }
 
     }//GEN-LAST:event_btnSalvarClienteActionPerformed
 
