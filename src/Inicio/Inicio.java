@@ -5,7 +5,7 @@
  */
 package Inicio;
 
-import View.login;
+import View.loginView;
 
 /**
  *
@@ -18,7 +18,7 @@ public class Inicio {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        login logar = new login();
+        loginView logar = new loginView();
         logar.setLocationRelativeTo(null);
         logar.setVisible(true);
     }
