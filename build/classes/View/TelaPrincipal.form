@@ -112,7 +112,7 @@
                               </Group>
                               <Component id="jScrollPane4" alignment="0" min="-2" pref="971" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="444" max="32767" attributes="0"/>
+                          <EmptySpace pref="744" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -496,7 +496,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="739" max="32767" attributes="0"/>
+                      <EmptySpace pref="754" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -795,8 +795,8 @@
         <Container class="javax.swing.JPanel" name="jPanel3">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Gerenciamento de Clientes">
-                <Property name="tabTitle" type="java.lang.String" value="Gerenciamento de Clientes"/>
+              <JTabbedPaneConstraints tabName="Gerenciamento de Usuarios">
+                <Property name="tabTitle" type="java.lang.String" value="Gerenciamento de Usuarios"/>
                 <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/View/imgs/boy.png"/>
                 </Property>
@@ -807,13 +807,10 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
-                          <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace pref="862" max="32767" attributes="0"/>
+                      <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="1142" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -821,338 +818,13 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="262" max="32767" attributes="0"/>
+                      <EmptySpace pref="387" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Container class="javax.swing.JPanel" name="jPanel4">
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel15" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="1" attributes="0">
-                                              <Component id="jLabel18" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel16" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="txtCidadeGC" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="txtEnderecoGC" alignment="0" pref="159" max="32767" attributes="0"/>
-                                      <Component id="txtNomeGC" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="txtBairroGC" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="txtCPFgc" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="txtTelefoneGC" alignment="0" max="32767" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jLabel17" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel14" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel11" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel13" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel19" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="txtEmailGC" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="txtCEPgc" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="txtCelularGC" alignment="0" max="32767" attributes="0"/>
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="cboUFgc" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <Component id="txtNumeroGC" min="-2" pref="52" max="-2" attributes="0"/>
-                                                          <EmptySpace max="-2" attributes="0"/>
-                                                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                                                          <EmptySpace max="-2" attributes="0"/>
-                                                          <Component id="txtCompGC" min="-2" pref="66" max="-2" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                                  <EmptySpace min="0" pref="141" max="32767" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                      </Group>
-                                      <Group type="102" attributes="0">
-                                          <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="cboSexoGC" min="-2" pref="75" max="-2" attributes="0"/>
-                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                  <Component id="btnSalvarCliente" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="btnCancelarCliente" min="-2" pref="108" max="-2" attributes="0"/>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace pref="47" max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtNomeGC" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtEmailGC" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="cboSexoGC" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtCPFgc" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtEnderecoGC" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtCompGC" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtNumeroGC" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="txtBairroGC" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtCEPgc" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                  <Component id="cboUFgc" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                  <Component id="txtCidadeGC" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel16" alignment="1" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtCelularGC" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtTelefoneGC" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="btnSalvarCliente" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                              <Component id="btnCancelarCliente" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-              <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel7">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Nome: "/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JTextField" name="txtNomeGC">
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel8">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="CPF: "/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel9">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Endere&#xe7;o:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JTextField" name="txtEnderecoGC">
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel11">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="N&#xb0;"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel12">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Comp:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JTextField" name="txtCompGC">
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel13">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="CEP:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel14">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Email:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JTextField" name="txtEmailGC">
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel15">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Bairro:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JTextField" name="txtBairroGC">
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtBairroGCActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel16">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Cidade:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JTextField" name="txtCidadeGC">
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel17">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="UF:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JComboBox" name="cboUFgc">
-                  <Properties>
-                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="27">
-                        <StringItem index="0" value="-"/>
-                        <StringItem index="1" value="AC"/>
-                        <StringItem index="2" value="AL"/>
-                        <StringItem index="3" value="AP"/>
-                        <StringItem index="4" value="AM"/>
-                        <StringItem index="5" value="BA"/>
-                        <StringItem index="6" value="CE"/>
-                        <StringItem index="7" value="DF"/>
-                        <StringItem index="8" value="ES"/>
-                        <StringItem index="9" value="GO"/>
-                        <StringItem index="10" value="MA"/>
-                        <StringItem index="11" value="MT"/>
-                        <StringItem index="12" value="MS"/>
-                        <StringItem index="13" value="MG"/>
-                        <StringItem index="14" value="PA"/>
-                        <StringItem index="15" value="PB"/>
-                        <StringItem index="16" value="PE"/>
-                        <StringItem index="17" value="PI"/>
-                        <StringItem index="18" value="RN"/>
-                        <StringItem index="19" value="RS"/>
-                        <StringItem index="20" value="RJ"/>
-                        <StringItem index="21" value="RO"/>
-                        <StringItem index="22" value="RR"/>
-                        <StringItem index="23" value="SC"/>
-                        <StringItem index="24" value="SP"/>
-                        <StringItem index="25" value="SE"/>
-                        <StringItem index="26" value="TO"/>
-                      </StringArray>
-                    </Property>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cboUFgcActionPerformed"/>
-                  </Events>
-                  <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-                  </AuxValues>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel18">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Telefone:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel19">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Cel:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JButton" name="btnSalvarCliente">
-                  <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/View/imgs/save-16.png"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="Salvar"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalvarClienteActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel23">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Sexo:"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JComboBox" name="cboSexoGC">
-                  <Properties>
-                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="3">
-                        <StringItem index="0" value="-"/>
-                        <StringItem index="1" value="Masculino"/>
-                        <StringItem index="2" value="Feminino"/>
-                      </StringArray>
-                    </Property>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cboSexoGCActionPerformed"/>
-                  </Events>
-                  <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-                  </AuxValues>
-                </Component>
-                <Component class="javax.swing.JFormattedTextField" name="txtCPFgc">
-                  <Properties>
-                    <Property name="toolTipText" type="java.lang.String" value=""/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JFormattedTextField" name="txtCEPgc">
-                </Component>
-                <Component class="javax.swing.JFormattedTextField" name="txtCelularGC">
-                </Component>
-                <Component class="javax.swing.JFormattedTextField" name="txtTelefoneGC">
-                </Component>
-                <Component class="javax.swing.JFormattedTextField" name="txtNumeroGC">
-                </Component>
-                <Component class="javax.swing.JButton" name="btnCancelarCliente">
-                  <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/View/imgs/delete-2-16.png"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="Cancelar"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelarClienteActionPerformed"/>
-                  </Events>
-                </Component>
-              </SubComponents>
-            </Container>
             <Container class="javax.swing.JPanel" name="jPanel11">
 
               <Layout>
@@ -1167,12 +839,20 @@
                           <Component id="btnBuscaClienteGC" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
-                      <Component id="jScrollPane1" alignment="0" pref="535" max="32767" attributes="0"/>
+                      <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace max="32767" attributes="0"/>
-                          <Component id="btnEditarClienteGC" min="-2" pref="91" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="btnExcluirCliente" min="-2" pref="91" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="btnEditarClienteGC" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="btnExcluirCliente" min="-2" pref="91" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1193,6 +873,8 @@
                               <Component id="btnEditarClienteGC" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1202,7 +884,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel24">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Cliente: "/>
+                    <Property name="text" type="java.lang.String" value="Usuario:"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JButton" name="btnBuscaClienteGC">
@@ -1226,11 +908,12 @@
                     <Component class="javax.swing.JTable" name="tblClienteCadastradoGC">
                       <Properties>
                         <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                          <Table columnCount="4" rowCount="0">
-                            <Column editable="true" title="ID Cliente" type="java.lang.Object"/>
+                          <Table columnCount="5" rowCount="0">
+                            <Column editable="true" title="ID do usuario" type="java.lang.Object"/>
                             <Column editable="true" title="Nome Completo" type="java.lang.Object"/>
                             <Column editable="true" title="CPF" type="java.lang.Object"/>
                             <Column editable="true" title="E-Mail" type="java.lang.Object"/>
+                            <Column editable="true" title="Categoria" type="java.lang.Object"/>
                           </Table>
                         </Property>
                       </Properties>
@@ -1259,6 +942,329 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExcluirClienteActionPerformed"/>
                   </Events>
                 </Component>
+                <Container class="javax.swing.JPanel" name="jPanel4">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel15" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Component id="jLabel18" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel16" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="txtCidadeGC" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtEnderecoGC" alignment="0" pref="159" max="32767" attributes="0"/>
+                                          <Component id="txtNomeGC" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtBairroGC" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtCPFgc" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtTelefoneGC" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel17" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel14" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel11" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel13" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel19" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="txtEmailGC" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="txtCEPgc" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="txtCelularGC" alignment="0" max="32767" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="cboUFgc" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <Component id="txtNumeroGC" min="-2" pref="52" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="txtCompGC" min="-2" pref="66" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <EmptySpace min="0" pref="141" max="32767" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="cboSexoGC" min="-2" pref="75" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                      <Component id="btnSalvarCliente" min="-2" pref="91" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="btnCancelarCliente" min="-2" pref="108" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace pref="47" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtNomeGC" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtEmailGC" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cboSexoGC" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtCPFgc" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtEnderecoGC" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtCompGC" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtNumeroGC" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtBairroGC" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtCEPgc" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="cboUFgc" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="txtCidadeGC" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel16" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtCelularGC" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtTelefoneGC" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnSalvarCliente" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="btnCancelarCliente" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel7">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Nome: "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtNomeGC">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel8">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="CPF: "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel9">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Endere&#xe7;o:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtEnderecoGC">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel11">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="N&#xb0;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel12">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Comp:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtCompGC">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel13">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="CEP:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel14">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Email:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtEmailGC">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel15">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Bairro:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtBairroGC">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtBairroGCActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel16">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cidade:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtCidadeGC">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel17">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="UF:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cboUFgc">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="27">
+                            <StringItem index="0" value="-"/>
+                            <StringItem index="1" value="AC"/>
+                            <StringItem index="2" value="AL"/>
+                            <StringItem index="3" value="AP"/>
+                            <StringItem index="4" value="AM"/>
+                            <StringItem index="5" value="BA"/>
+                            <StringItem index="6" value="CE"/>
+                            <StringItem index="7" value="DF"/>
+                            <StringItem index="8" value="ES"/>
+                            <StringItem index="9" value="GO"/>
+                            <StringItem index="10" value="MA"/>
+                            <StringItem index="11" value="MT"/>
+                            <StringItem index="12" value="MS"/>
+                            <StringItem index="13" value="MG"/>
+                            <StringItem index="14" value="PA"/>
+                            <StringItem index="15" value="PB"/>
+                            <StringItem index="16" value="PE"/>
+                            <StringItem index="17" value="PI"/>
+                            <StringItem index="18" value="RN"/>
+                            <StringItem index="19" value="RS"/>
+                            <StringItem index="20" value="RJ"/>
+                            <StringItem index="21" value="RO"/>
+                            <StringItem index="22" value="RR"/>
+                            <StringItem index="23" value="SC"/>
+                            <StringItem index="24" value="SP"/>
+                            <StringItem index="25" value="SE"/>
+                            <StringItem index="26" value="TO"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cboUFgcActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel18">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Telefone:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel19">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cel:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnSalvarCliente">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/View/imgs/save-16.png"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Salvar"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalvarClienteActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel23">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Sexo:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cboSexoGC">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="3">
+                            <StringItem index="0" value="-"/>
+                            <StringItem index="1" value="Masculino"/>
+                            <StringItem index="2" value="Feminino"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cboSexoGCActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="txtCPFgc">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value=""/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="txtCEPgc">
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="txtCelularGC">
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="txtTelefoneGC">
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="txtNumeroGC">
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnCancelarCliente">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/View/imgs/delete-2-16.png"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Cancelar"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelarClienteActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
               </SubComponents>
             </Container>
           </SubComponents>
@@ -1281,7 +1287,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="490" max="-2" attributes="0"/>
                       <Component id="pieChart" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="328" pref="968" max="32767" attributes="0"/>
+                      <EmptySpace min="328" pref="1268" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
@@ -1298,7 +1304,7 @@
                           <Component id="btnReportGenerate" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jScrollPane7" pref="1261" max="32767" attributes="0"/>
+                      <Component id="jScrollPane7" pref="1561" max="32767" attributes="0"/>
                       <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
