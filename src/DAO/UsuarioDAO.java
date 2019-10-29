@@ -6,19 +6,22 @@
 package DAO;
 
 import Model.Usuario;
+import java.util.ArrayList;
 
 /**
  *
  * @author guilherme
  */
 public class UsuarioDAO {
+    
+    ArrayList<String> usuario = new ArrayList<>();
+    
+    
 
     public static boolean Salvar(Usuario u) {
         return SimulaDB.getInstance().SalvarUsuario(u);
     }
 
-    public static boolean logar(String usuario, String senha) {
-        return SimulaDB.getInstance().logar(usuario, senha);
-    }
+    
 
 }

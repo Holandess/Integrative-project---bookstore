@@ -3,28 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package Model;
-
-import java.util.Random;
-
 /**
  *
- * @author enzo.samorim
+ * @author Filipe Holanda
  */
 public class Cliente {
 
     private int id;
+    private int numero;
+    
     private String nome;
     private String email;
-    private Long cpf;
     private String sexo;
     private String endereco;
-    private int numero;
     private String complemento;
     private String bairro;
-    private Long cep;
     private String cidade;
     private String uf;
+    
+    private Long cpf;
+    private Long cep;
     private Long telefone;
     private Long celular;
 
@@ -33,7 +33,7 @@ public class Cliente {
      *
      * Recebe todos os dados do cliente
      *
-     * @author Guilherme Gomes/Enzo Amorim
+     * @author Filipe Holanda
      *
      * @param Nome String - Nome cliente
      *
@@ -81,10 +81,20 @@ public class Cliente {
         this.celular = celular;
     }
 
+    public Cliente(){
+        
+    }
+    /*
+    @return id
+    */
     public int getId() {
         return id;
     }
 
+    
+    /*
+    @param id
+    */
     public void setId(int id) {
         this.id = id;
     }

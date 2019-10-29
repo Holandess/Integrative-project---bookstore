@@ -711,7 +711,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("Estoque de Produtos", new javax.swing.ImageIcon(getClass().getResource("/View/imgs/package.png")), jPanel1); // NOI18N
 
-        jLabel24.setText("Usuario:");
+        jLabel24.setText("Cliente:");
 
         btnBuscaClienteGC.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/imgs/research.png"))); // NOI18N
         btnBuscaClienteGC.setText("Buscar");
@@ -726,7 +726,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
             },
             new String [] {
-                "ID do usuario", "Nome Completo", "CPF", "E-Mail", "Categoria"
+                "ID do cliente", "Nome Completo", "CPF", "E-Mail"
             }
         ));
         jScrollPane1.setViewportView(tblClienteCadastradoGC);
@@ -987,7 +987,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addContainerGap(387, Short.MAX_VALUE))
         );
 
-        jTabbedPane2.addTab("Gerenciamento de Usuarios", new javax.swing.ImageIcon(getClass().getResource("/View/imgs/boy.png")), jPanel3); // NOI18N
+        jTabbedPane2.addTab("Gerenciamento de clientes", new javax.swing.ImageIcon(getClass().getResource("/View/imgs/boy.png")), jPanel3); // NOI18N
 
         tblResultados.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

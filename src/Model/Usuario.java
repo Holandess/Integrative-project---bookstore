@@ -39,6 +39,7 @@ public class Usuario {
      */
     public Usuario(String login, String senha, String nomeCompleto, String email) {
         Random random = new Random();
+        //Vamos auto incrementar
         this.id = random.nextInt(1000) + 0;
         this.login = login;
         this.senha = senha;

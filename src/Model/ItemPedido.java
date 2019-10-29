@@ -5,8 +5,6 @@
  */
 package Model;
 
-import java.util.Random;
-
 /**
  *
  * @author enzo.samorim

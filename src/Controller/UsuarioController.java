@@ -8,7 +8,6 @@ package Controller;
 import DAO.UsuarioDAO;
 
 public class UsuarioController {
-
     /**
      * Método para Logar no sistema
      *
@@ -23,8 +22,6 @@ public class UsuarioController {
      *
      */
 
-    public static boolean Logar(String usuario, String senha) {
-        return UsuarioDAO.logar(usuario, senha);
-    }
+    
 
 }

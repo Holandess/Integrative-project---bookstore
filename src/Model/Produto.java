@@ -1,14 +1,13 @@
 package Model;
 
-import java.util.Random;
-
 public class Produto {
 
     private int codProduto;
+    private int qtdProduto;
+    
     private String Categoria;
     private String nomeProduto;
     private String descProduto;
-    private int qtdProduto;
     private float valorUnitario;
 
     /**

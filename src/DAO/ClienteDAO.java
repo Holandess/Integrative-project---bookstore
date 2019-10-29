@@ -39,7 +39,7 @@ public class ClienteDAO {
 
      * Pega os valores do Cliente e passa para o banco de dados.
 
-     * @author Guilherme Gomes
+     * @author Filipe Holanda
 
      * @param  Cliente p  - Conjunto de informações do cliente.
 
